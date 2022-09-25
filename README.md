@@ -2,7 +2,7 @@
 
 Build ECommerce Website by Next.js
 
-# Project Demo: https://next-seagit-task.vercel.app/
+# Project Demo: https://next-shopping-task.vercel.app/
 
 ## Run it Locally
 
