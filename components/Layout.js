@@ -126,7 +126,9 @@ export default function Layout({ title, description, children }) {
   return (
     <div>
       <Head>
-        <title>{title ? `${title} - Next Seagit` : "Next Seagit"}</title>
+        <title>
+          {title ? `${title} - Next Shopping Avenue` : "Next Shopping Avenue"}
+        </title>
         {description && <meta name="description" content={description}></meta>}
       </Head>
       <ThemeProvider theme={theme}>
@@ -144,7 +146,9 @@ export default function Layout({ title, description, children }) {
               </IconButton>
               <NextLink href="/" passHref>
                 <Link>
-                  <Typography className={classes.brand}>Seagit</Typography>
+                  <Typography className={classes.brand}>
+                    Shopping Avenue
+                  </Typography>
                 </Link>
               </NextLink>
             </Box>
@@ -279,7 +283,7 @@ export default function Layout({ title, description, children }) {
         </AppBar>
         <Container className={classes.main}>{children}</Container>
         <footer className={classes.footer}>
-          <Typography>All rights reserved. Next Seagit.</Typography>
+          <Typography>All rights reserved. Next Shopping Avenue.</Typography>
         </footer>
       </ThemeProvider>
     </div>
